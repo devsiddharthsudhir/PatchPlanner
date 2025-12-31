@@ -1,0 +1,171 @@
+############################
+# OS / System
+############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+############################
+# Logs
+############################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+
+############################
+# Environment files / Secrets
+############################
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+*.whl
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+junit.xml
+.pyre/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+.tox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+############################
+# Node / Frontend (React/Vite/Next/etc.)
+############################
+node_modules/
+.pnp
+.pnp.js
+.npmrc
+.yarnrc
+.yarn/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.cache/
+.parcel-cache/
+
+# Local tooling
+.eslintcache
+.stylelintcache
+
+############################
+# TypeScript
+############################
+*.tsbuildinfo
+
+############################
+# IDEs / Editors
+############################
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+############################
+# Python project env (common)
+############################
+*.sqlite3
+*.db
+instance/
+local_settings.py
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+
+############################
+# Temporary / Misc
+############################
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+############################
+# Certificates / Uploads (common in backend)
+############################
+uploads/
+media/
+staticfiles/
+
+############################
+# Optional: Lockfiles policy
+# (Keep lockfiles committed for reproducible builds)
+############################
+# DON'T ignore:
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
