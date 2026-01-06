@@ -7,6 +7,6 @@ python-dotenv==1.0.1
 
 networkx==3.3
 pulp==2.9.0
-python-multipart==0.0.9
+python-multipart==0.0.18
 
 pytest==8.3.2
